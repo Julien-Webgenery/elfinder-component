@@ -1,5 +1,5 @@
 {
-    "name": "components/elfinder",
+    "name": "jcs/components-elfinder",
     "type": "component",
     "description": "ElFinder FileManager",
     "keywords": ["elfinder","file manager"],
