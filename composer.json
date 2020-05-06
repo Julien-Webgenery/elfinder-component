@@ -21,7 +21,7 @@
     },
     "replace": {
         "components/elfinder": "~3"
-    }
+    },
     "extra": {
         "component": {
             "scripts": [
