@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "robloach/component-installer": "*",
+        "oomphinc/composer-installers-extender": "*",
         "components/jquery": ">=1.12.4 <4.0",
         "components/jqueryui": ">=1.12.0"
     },
@@ -23,20 +23,9 @@
         "components/elfinder": "~3"
     },
     "extra": {
-        "component": {
-            "scripts": [
-                "dist/js/elfinder.min.js"
-            ],
-            "styles": [
-                "dist/css/elfinder.min.css",
-                "dist/css/theme.css"
-            ],
-            "files": [
-                "dist/img/*.png",
-                "dist/img/*.svg",
-                "dist/img/*.gif",
-                "dist/js/i18n/*.js"
-            ]
+        "installer-types": ["component"],
+        "installer-paths": {
+            "components/{$name}/": ["type:component"]
         }
     },
     "minimum-stability": "dev"
